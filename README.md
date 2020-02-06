@@ -208,13 +208,14 @@ if(SensArray[4]>20){
 //  }                             //For testing purposes
 
 
-//based on the last thing the sensors saw, make the motors go
+
+     //based on the last thing the sensors saw, make the motors go
   switch(LastSeen){
     case 0:
-    //  delay(10);
+    // delay(10);
       SharpStarboard();
       break;
-
+    
     case 1:
     //  delay(10);
       SharpStarboard();
